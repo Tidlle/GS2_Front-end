@@ -1,5 +1,6 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { getTrilhaById, TrilhaInfo } from "../data/Trilhas";
+import { getTrilhaById } from "../data/Trilhas";
+import type { TrilhaInfo } from "../data/Trilhas";
 
 export function TrilhaDetalhe() {
   const { id } = useParams<{ id: string }>();
