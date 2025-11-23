@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { trilhas, TrilhaInfo } from "../data/Trilhas";
+import { trilhas } from "../data/Trilhas";
+import type { TrilhaInfo } from "../data/Trilhas";
 
 type Usuario = {
   nome: string;
