@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { trilhas, TrilhaInfo } from "../data/Trilhas";
+import { trilhas } from "../data/Trilhas";
+import type { TrilhaInfo } from "../data/Trilhas";
 
 const AREA_LABEL: Record<TrilhaInfo["area"], string> = {
   dados: "Dados",
