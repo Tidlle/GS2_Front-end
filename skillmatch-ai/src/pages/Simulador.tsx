@@ -1,5 +1,6 @@
-import { FormEvent, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import type { FormEvent } from "react";
 
 type DadosSimulador = {
   nome: string;
