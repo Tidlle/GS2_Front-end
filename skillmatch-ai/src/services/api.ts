@@ -1,6 +1,6 @@
 const BASE_URL =
   (import.meta.env.VITE_API_URL ||
-    "https://sprint4-java-1.onrender.com").replace(/\/+$/, "");
+    "https://gs2-java-mka3.onrender.com").replace(/\/+$/, "");
 
 type HttpResp<T> = {
   ok: boolean;
